@@ -9,3 +9,22 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header{
+    display: flex;
+
+}
+
+h1{
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    padding-top: 1.5em;
+}
+
+li{
+    display: inline;
+}
