@@ -28,3 +28,63 @@ ul{
 li{
     display: inline;
 }
+
+img{
+    width: 15em;
+    height: 15em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    float: left;
+}
+
+
+
+.overview-hero{
+    padding: 5em;
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    text-align: left;
+}
+
+
+.cards{
+    grid-gap: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.testing{
+    padding: 5em;
+    display: flex;
+    align-items: center;
+}
+.testing-desciption{
+    float: left;
+    width: 70%;
+}
+
+.cta{
+    float: right;
+    padding: 3em;
+}
+
+article{
+    display: flex;
+    padding-top: 2em;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
